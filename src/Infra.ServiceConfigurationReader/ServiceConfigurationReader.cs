@@ -1,14 +1,13 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace NetExtensions
+namespace NetExtensions.Infra.ServiceConfigurationReader
 {
     public class ServiceConfigurationReader
     {
         private const string AppSettings = "appsettings.json";
         public static IConfiguration CreateConfiguration(params string[] jsonFileNames)
         {
-
             var builder = new ConfigurationBuilder()
                 .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile(AppSettings, false, true)

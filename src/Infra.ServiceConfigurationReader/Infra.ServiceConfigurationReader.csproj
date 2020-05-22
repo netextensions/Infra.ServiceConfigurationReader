@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/netextensions/Infra.ServiceConfigurationReader</RepositoryUrl>
     <PackageTags>ContentRoot, windows service, .net core</PackageTags>
     <PackageId>NetExtensions.Infra.ServiceConfigurationReader</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>netextensions.io</Authors> 
     <PackageIcon>icon.png</PackageIcon>
